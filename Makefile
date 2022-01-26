@@ -4,4 +4,5 @@ run-producer:
 
 .PHONY: run-consumer
 run-consumer:
+	@echo "run-consumer"
 	go run consumer/main.go
